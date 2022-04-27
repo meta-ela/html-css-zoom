@@ -77,17 +77,30 @@ body {
 /*sezione navbar pagina */
 .navbar {
     background-color: var(--navbar-color);
-    
+    justify-content: space-between;
 }
 
 .navbar-box {
     text-align: center;
-    gap: 0.7rem;
+    gap: 1rem;
     font-size: 14px;
-    padding: 1rem;
+    padding: 1rem 1rem;
 }
 
 .large-icon {
     width: 30px;
     height: 30px;
+}
+
+.xs-icon {
+    width: 10px;
+}   
+
+.exit-video {
+    color: red;
+    background-color: var(--grey-bar-color);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
 }
