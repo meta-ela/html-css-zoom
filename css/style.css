@@ -45,8 +45,11 @@ body {
 
 /*sezione principale con schermo utenti*/
 .section {
-    width: 100vw;
-    padding: 1rem 3rem;
+    height: 10vh;
+}
+
+.section-viewport {
+    padding: 1rem 4rem;
 }
 
 .user-img {
@@ -72,7 +75,9 @@ body {
     gap: .5rem;
 }
 
-
+.col {
+    flex-basis: calc((100% / 7) - 0.5rem);
+}
 
 /*sezione navbar pagina */
 .navbar {
@@ -104,3 +109,5 @@ body {
     align-items: center;
     padding: 1rem 1rem;
 }
+
+
