@@ -14,7 +14,7 @@ body {
 
 :root {
     --grey-bar-color: #4a4a4a;
-
+    --navbar-color: #222222;
 }
 
 .flex {
@@ -23,6 +23,7 @@ body {
 
 
 
+/*barra di visualizzazione della pagina*/
 .view-mode-container {
     gap: 0.5rem;
     justify-content: end;
@@ -39,4 +40,54 @@ body {
     border-radius: 8px;
     gap: 0.3rem;
     align-items: center;
+}
+
+
+/*sezione principale con schermo utenti*/
+.section {
+    width: 100vw;
+    padding: 1rem 3rem;
+}
+
+.user-img {
+    width: 100%;
+}
+
+.user-name {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 0.5rem;
+    font-size: 14px;
+    backdrop-filter: blur(2px);
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+
+.relative {
+    position: relative;
+}
+
+.row {
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+
+
+/*sezione navbar pagina */
+.navbar {
+    background-color: var(--navbar-color);
+    
+}
+
+.navbar-box {
+    text-align: center;
+    gap: 0.7rem;
+    font-size: 14px;
+    padding: 1rem;
+}
+
+.large-icon {
+    width: 30px;
+    height: 30px;
 }
