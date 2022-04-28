@@ -44,10 +44,6 @@ body {
 
 
 /*sezione principale con schermo utenti*/
-.section {
-    height: 10vh;
-}
-
 .section-viewport {
     padding: 1rem 4rem;
 }
